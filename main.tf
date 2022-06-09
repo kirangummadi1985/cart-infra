@@ -6,6 +6,3 @@ module "vpc" {
   SUBNET_CIDR      = var.SUBNET_CIDR
   AZ               = var.AZ
 }
-
-
-
