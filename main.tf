@@ -17,6 +17,9 @@ module "elasticache" {
   COMPONENT           = var.COMPONENT
   NODE_COUNT          = var.NODE_COUNT
   FAMILY              = var.FAMILY
+  VPC_ID              = module.vpc.VPC_ID
+  VPC_CIDR            = module.vpc.VPC_CIDR
+  SUBNET_IDS          = module.vpc.SUBNET_IDS
 }
 
 
