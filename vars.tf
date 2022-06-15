@@ -9,4 +9,3 @@ variable "ENGINE_VERSION" {}
 variable "NODE_TYPE" {}
 variable "NODE_COUNT" {}
 variable "FAMILY" {}
-
